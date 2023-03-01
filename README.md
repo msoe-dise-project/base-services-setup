@@ -35,6 +35,4 @@ The default admin usernames and passwords are:
 - Postgres: postgres / postgres
 - Minio: minioadmin / minioadmin
 - Mongodb: root / monogodb
-- Portainer: Set on first login after starting service
-
-Portainer is installed and can be used to view the statuses of and manage the services.  Point your web browser at [localhost:9443](https://localhost:9443).
+- Portainer: admin / portainer123
