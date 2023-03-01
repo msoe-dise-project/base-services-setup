@@ -6,6 +6,8 @@ services:
     container_name: portainer
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
+    # sets default password to "portainer123"
+    command: --admin-password "$$2y$$05$$jN8Mg65U9c/ayTY0xgBtuOOfRCZXIsFEVLanbyXe6JB3pQDQ5uHU6"
     ports:
       - "9443:9443"
 
@@ -21,7 +23,7 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_PASSWORD: "passwd"
+      POSTGRES_PASSWORD: "postgres"
 
   minio:
     image: quay.io/minio/minio
