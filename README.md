@@ -25,4 +25,14 @@ To shut the services down:
 $ docker compose down
 ```
 
+When services are shut down and then restarted, they will not maintain their state -- they will be reset.
+
+Portainer is installed and can be used to view the statuses of and manage the services.  Point your web browser at [localhost:9443](https://localhost:9443).
+
+The default admin usernames and passwords are:
+
+- Postgres: postgres / postgres
+- Minio: minioadmin / minioadmin
+- Portainer: Set on first login after starting service
+
 Portainer is installed and can be used to view the statuses of and manage the services.  Point your web browser at [localhost:9443](https://localhost:9443).
