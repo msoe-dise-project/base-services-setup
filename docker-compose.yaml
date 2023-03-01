@@ -3,6 +3,7 @@ version: '3'
 services:
   portainer:
     image: docker.io/portainer/portainer-ce:latest
+    container_name: portainer
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     ports:
