@@ -79,3 +79,10 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: mongodb
+
+  nats:
+    image: docker.io/nats
+    container_name: nats
+    ports:
+      - "4222:4222"
+      - "8222:8222"
