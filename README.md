@@ -3,7 +3,7 @@ Uses Docker Compose to run various base services
 
 Current services include:
 
-* Apache Cassandra (ports 9042 and 9160)
+* ScyllaDB (ports 9042 and 9160)
 * Apache Kafka (port 9092)
 * Docker Registry (port 5000)
 * Minio (ports 9000 and 9001)

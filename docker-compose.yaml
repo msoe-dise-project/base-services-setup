@@ -33,9 +33,9 @@ services:
       - "9001:9001" # web admin console
     command: server /minio_data --console-address ":9001"
 
-  cassandra:
-    image: docker.io/cassandra:latest
-    container_name: cassandra
+  scylladb:
+    image: docker.io/scylladb/scylla:latest
+    container_name: scylladb
     ports:
       - "9042:9042"
       - "9160:9160"
