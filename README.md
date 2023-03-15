@@ -8,7 +8,7 @@ Current services include:
 * Docker Registry (port 5000)
 * Minio (ports 9000 and 9001)
 * Mongodb (port 27017)
-* Nats (ports 4222 and 8222)
+* NATS (ports 4222 and 8222)
 * Portainer (port 9443)
 * Postgres (port 5432)
 * Redis (port 6379)
