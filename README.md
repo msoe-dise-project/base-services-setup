@@ -3,15 +3,16 @@ Uses Docker Compose to run various base services
 
 Current services include:
 
-* ScyllaDB (ports 9042 and 9160)
 * Apache Kafka (port 9092)
-* Docker Registry (port 5000)
 * Minio (ports 9000 and 9001)
 * Mongodb (port 27017)
 * NATS (ports 4222 and 8222)
 * Portainer (port 9443)
 * Postgres (port 5432)
+* Apache Pulsar (port 6650)
 * Redis (port 6379)
+* Docker Registry (port 5000)
+* ScyllaDB (ports 9042 and 9160)
 
 You will need to have docker engine and docker compose installed.
 

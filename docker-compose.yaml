@@ -86,3 +86,9 @@ services:
     ports:
       - "4222:4222"
       - "8222:8222"
+
+  pulsar:
+    image: docker.io/apachepulsar/pulsar
+    container_name: pulsar
+    ports:
+      - "6650:6650"
