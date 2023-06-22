@@ -3,16 +3,11 @@ Uses Docker Compose to run various base services
 
 Current services include:
 
-* Apache Kafka (port 9092)
 * Minio (ports 9000 and 9001)
 * Mongodb (port 27017)
-* NATS (ports 4222 and 8222)
 * Portainer (port 9443)
 * Postgres (port 5432)
-* Apache Pulsar (port 6650)
 * Redis (port 6379)
-* Docker Registry (port 5000)
-* ScyllaDB (ports 9042 and 9160)
 
 You will need to have docker engine and docker compose installed.
 
@@ -30,7 +25,7 @@ $ docker compose down
 
 When services are shut down and then restarted, they will not maintain their state -- they will be reset.
 
-Portainer is installed and can be used to view the statuses of and manage the services.  Point your web browser at [localhost:9443](https://localhost:9443).
+Portainer is included and can be used to view the statuses of and manage the services.  Point your web browser at [localhost:9443](https://localhost:9443).
 
 The default admin usernames and passwords are:
 
